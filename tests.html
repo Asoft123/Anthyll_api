@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+</head>
+<body>
+      <h1>Hello mailer</h1>
+      <script>
+     fetch('http://localhost/Anthyll/api/services/get_single_service.php?id=4')
+     .then(res => res.json())
+     .then(response => console.log(response))
+     .catch(ex => {
+            console.log(ex)
+     })
+
+      </script>
+</body>
+</html>
